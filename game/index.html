@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta name="description" content="A JavaScript-based game of memory cards">
+		<meta name="keywords" content="javascript, game, concentration, match, pair, front, end, web, development">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Anatomy Of A Plant Cell</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Anatomy Of A Plant Cell</h1>
+		</header>
+
+		<main>
+
+			<section id="win-modal" style="display: none;">
+				<button aria-label="Close winner modal" id="close-modal">×</button>
+				<h1>You've won!</h1>
+				<p>Would you like to play again?</p>
+				<button id="yes">Yes</button>
+				<button id="no">No</button>
+				<div id="rating-result"></div>
+				<p>You took <span id="time-result"></span> to finish after <span id="counter-result"></span>! Excellent job!</p>
+			</section>
+
+			<section id="start-overlay">
+				<p>Ready to start?</p>
+        <button id="start-game-button">▷</button>
+        <div id="answer-key-container"><img id="answer-key" src="https://i.imgur.com/m85pK9o.png"></div>
+			</section>
+
+			<section id="game-header">
+				<div id="time"><span id="minutes">0</span>:<span id="seconds">0</span></div>
+				<div id="rating">★ ★ ★</div>
+				<div id="counter"><span id="moves">0</span> moves</div>
+				<div id="reset">⟲</div>
+			</section>
+
+			<section id="memory-game">
+				<div class="card card1">
+					<div class="back card1a hide"></div>
+					<div class="front"><img class="card-img" src="https://i.imgur.com/eBIib9C.png"</div>
+				</div>
+				<div class="card card1">
+					<div class="back card1b hide"></div>
+          <div class="front"><p class="card-answer">Cell Membrane</p></div>
+				</div>
+				<div class="card card2">
+					<div class="back card2a hide"></div>
+					<div class="front"><img class="card-img" src="https://i.imgur.com/5nZOpUQ.png"></div>
+				</div>
+				<div class="card card2">
+					<div class="back card2b hide"></div>
+          <div class="front"><p class="card-answer">Chloroplast</p></div>
+				</div>
+				<div class="card card3">
+					<div class="back card3a hide"></div>
+					<div class="front"><img class="card-img" src="https://i.imgur.com/wo1Fwo3.png"></div>
+				</div>
+				<div class="card card3">
+					<div class="back card3b hide"></div>
+          <div class="front"><p class="card-answer">Cytoplasm</p></div>
+				</div>
+				<div class="card card4">
+					<div class="back card4a hide"></div>
+					<div class="front"><img class="card-img" src="https://i.imgur.com/fxu6c8E.png"></div>
+				</div>
+				<div class="card card4">
+					<div class="back card4b hide"></div>
+          <div class="front"><p class="card-answer">Endoplasmic Reticulum</p></div>
+				</div>
+				<div class="card card5">
+					<div class="back card5a hide"></div>
+					<div class="front"><img class="card-img" src="https://i.imgur.com/dBvBKHB.png"></div>
+				</div>
+				<div class="card card5">
+					<div class="back card5b hide"></div>
+          <div class="front"><p class="card-answer">Golgi Apparatus</p></div>
+				</div>
+				<div class="card card6">
+					<div class="back card6a hide"></div>
+					<div class="front"><img class="card-img" src="https://i.imgur.com/OEEa1Ix.png"></div>
+				</div>
+				<div class="card card6">
+					<div class="back card6b hide"></div>
+          <div class="front"><p class="card-answer">Mito
+            chondria</p></div>
+				</div>
+				<div class="card card7">
+					<div class="back card7a hide"></div>
+					<div class="front"><img class="card-img" src="https://i.imgur.com/3KYPIa7.png"></div>
+				</div>
+				<div class="card card7">
+					<div class="back card7b hide"></div>
+          <div class="front"><p class="card-answer">Nucleolus</p></div>
+				</div>
+				<div class="card card8">
+					<div class="back card8a hide"></div>
+					<div class="front"><img class="card-img" src="https://i.imgur.com/uywhRvn.png"></div>
+				</div>
+				<div class="card card8">
+					<div class="back card8b hide"></div>
+          <div class="front"><p class="card-answer">Vacuole</p></div>
+				</div>
+			</section>
+
+		</main>
+
+		<script src="index.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,135 @@
+body {
+	font-family: Roboto, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	text-align: center;
+}
+
+main {
+	display: grid;
+	justify-content: center;
+}
+
+#win-modal {
+	background-color: lightgrey;
+	border: 1px solid grey;
+	height: 28em;
+	left: 0;
+	margin: 0 auto;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	max-width: 30em;
+}
+
+#close-modal {
+	margin-right: 100%;
+}
+
+#start-overlay {
+	background-color: rgb(255, 230, 0);
+	height: 100%;
+	margin: 0 auto;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+#start-overlay button {
+  width: 500px;
+}
+
+#answer-key {
+  width: 600px;
+}
+
+#game-header {
+	text-align: center;
+}
+
+#game-header div {
+	display: inline-block;
+}
+
+#reset {
+	cursor: pointer;
+}
+
+#memory-game {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: initial;
+	max-width: 600px;
+}
+
+.card {
+	align-items: center;
+	border: 1px solid grey;
+	cursor: pointer;
+	display: flex;
+	height: 5em;
+	justify-content: center;
+	margin: 0 auto 20px auto;
+	width: 3em;
+}
+
+.hide {
+	background-color: white;
+}
+
+.back {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.front {
+	font-size: 1.5em;
+}
+
+@media screen and (min-width: 430px) {
+	.card {
+		height: 6em;
+		width: 4em;
+	}
+
+	.front {
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.card {
+		height: 7em;
+		width: 5em;
+	}
+
+	.front {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.card {
+		height: 8em;
+		width: 6em;
+	}
+
+	.front {
+		font-size: 3em;
+	}
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-answer {
+  font-size: 15px;
+  text-align: center;
+}
