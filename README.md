@@ -1,7 +1,7 @@
 <div align="center">
       <h1> <img src="https://www.pngfind.com/pngs/m/188-1885401_herb-icon-herb-emoji-png-transparent-png.png" width="80px"><br/>Anatomy of a Plant Cell</h1>
      </div>
-<p align="center"> <a href="https://plantcell-project.netlify.app" target="_blank"><img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" /></a> <a href="}" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
+<p align="center"> <a href="https://plantcell-project.netlify.app" target="_blank"><img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" /> </p>
 
 # Description
 The aim of this project is to develop an interactive website designed to educate users about the structure and function of plant cells. The website will use a combination of a short introductory video and a memory card game to enhance learning and retention of key plant cell organelles. By matching images of the cell organelles with their corresponding names, users will reinforce their understanding of plant cell structure in an engaging, game-based format.
