@@ -7,14 +7,14 @@
 The aim of this project is to develop an interactive website designed to educate users about the structure and function of plant cells. The website will use a combination of a short introductory video and a memory card game to enhance learning and retention of key plant cell organelles. By matching images of the cell organelles with their corresponding names, users will reinforce their understanding of plant cell structure in an engaging, game-based format.
 
 # Features
-1.	Increased Knowledge Retention:
+### 1.	Increased Knowledge Retention:
 - The combination of visual (video) and interactive (memory game) learning methods will significantly improve retention of the key parts of the plant cell.
 - Users will develop a better understanding of the structure and functions of various organelles, such as the chloroplasts (photosynthesis), mitochondria (energy production), and vacuoles (storage).
 
-2.	Engagement and Motivation:
+### 2.	Engagement and Motivation:
 - The use of a memory card game will make learning more fun and interactive, increasing engagement and motivation to learn. Users are more likely to repeat the activity, reinforcing their knowledge each time.
 
-3.	Improved Visual Learning:
+### 3.	Improved Visual Learning:
 - By associating each organelle with both its name and its image, the website will help users develop a stronger visual memory of the plant cell's components.
 - The use of animations and interactive content will allow users to better understand complex biological structures and processes.
 
